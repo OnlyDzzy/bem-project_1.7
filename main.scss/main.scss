@@ -1,3 +1,10 @@
+$headercolor:  red;
+
+@mixin block-style ($bg-color,$T-position,$b-radius){
+    background-color: $bg-color ;
+    text-align: $T-position;
+    border-radius: $b-radius;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -22,9 +29,10 @@ body {
     margin-left: 15px;
     }
     .header__link:hover {
-    color: #ff0000;
+        color:$headercolor;
     }
     .content {
+        text-align: center;
     padding: 20px;
     }
     .row {  
@@ -34,10 +42,8 @@ body {
     }
     .side {
         flex: 0 1 200px;
-        background-color: #f1f1f1;
         padding: 20px;
-        text-align: center;
-        border-radius: 20px;
+        @include block-style(#f1f1f1, center, 20px)
     }
   
 
@@ -55,10 +61,7 @@ body {
     }
     .rewievs{
         flex: 0 1 150px;
-        text-align: center;
-        border-radius: 20px;
-        background-color: rgba(147, 247, 122, 0.692);
-      
+      @include block-style(rgba(147, 247, 122, 0.692), center, 0px)
     }
     .sas{
         text-align: center;
@@ -70,10 +73,8 @@ body {
     .rewievs___comment{
         border: 5px greenyellow;
     align-items: center;
-        text-align: center;
-     background-color: #005eff73;
-        border-radius: 20px;
      padding: 5px;
+     @include block-style(#005eff73, center, 20px)
     }
 
     .rewievs__comment__item{
@@ -99,3 +100,4 @@ body {
     position: relative;
     bottom: 0;
     }
+    

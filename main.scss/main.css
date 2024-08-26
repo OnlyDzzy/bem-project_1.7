@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.header__link:hover {
+  color: red;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 0 1 200px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.main {
+  flex: 2 1 400px;
+  background-color: rgb(215, 170, 170);
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+.Main__above__img {
+  margin: 0 4px;
+  padding: 4px;
+  width: 25%;
+}
+
+.rewievs {
+  flex: 0 1 150px;
+  background-color: rgba(147, 247, 122, 0.692);
+  text-align: center;
+  border-radius: 0px;
+}
+
+.sas {
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 50px;
+  font-size: xx-large;
+}
+
+.rewievs___comment {
+  border: 5px greenyellow;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(0, 94, 255, 0.4509803922);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.rewievs__comment__item {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: small;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 10%;
+  height: auto;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+}/*# sourceMappingURL=main.css.map */
