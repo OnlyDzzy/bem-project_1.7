@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 ;
+    padding: 0;
+    }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    }
+   
+    .header__nav {
+    display: flex;
+    }
+    .header__link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    }
+    .header__link:hover {
+    color: #ff0000;
+    }
+    .content {
+    padding: 20px;
+    }
+    .row {  
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .side {
+        flex: 1 1 200px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+    }
+  
+
+    .main {
+        flex: 2 1 400px;
+        background-color: rgb(215, 170, 170);
+        padding: 20px;
+        margin:  0 20px;
+        border-radius: 20px;
+    }
+    .Main__above__img{ 
+        margin:  0 4px;
+        padding: 4px;
+        width: 25%; 
+    }
+    .rewievs{
+        display: block;
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgba(147, 247, 122, 0.692);
+        width: 10%;
+    }
+    
+    .rewievs___comment{
+    align-items: center;
+        text-align: center;
+     background-color: #005eff73;
+        border-radius: 20px;
+       padding:  0 10% ;
+       margin: 10px;
+
+
+    }
+    .rewievs__comment__item{
+       margin-bottom: auto;
+        text-align: center;
+        font-size: small;
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 10%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
