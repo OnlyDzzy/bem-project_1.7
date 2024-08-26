@@ -63,7 +63,7 @@ body {
   flex: 0 1 150px;
   background-color: rgba(147, 247, 122, 0.692);
   text-align: center;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 .sas {

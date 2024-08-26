@@ -60,7 +60,7 @@ body {
     }
     .rewievs{
         flex: 0 1 150px;
-      @include block-style(rgba(147, 247, 122, 0.692), center, 0px)
+      @include block-style(rgba(147, 247, 122, 0.692), center, 20px)
     }
     .sas{
         text-align: center;
@@ -85,6 +85,7 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
+    
     .gallery img{
         width: 10%;
         height: auto;
