@@ -30,9 +30,10 @@ body {
     .row {  
         display: flex;
         flex-wrap: wrap;
+    
     }
     .side {
-        flex: 1 1 200px;
+        flex: 0 1 200px;
         background-color: #f1f1f1;
         padding: 20px;
         text-align: center;
@@ -43,7 +44,7 @@ body {
     .main {
         flex: 2 1 400px;
         background-color: rgb(215, 170, 170);
-        padding: 20px;
+        padding: 10px;
         margin:  0 20px;
         border-radius: 20px;
     }
@@ -53,25 +54,30 @@ body {
         width: 25%; 
     }
     .rewievs{
-        display: block;
-        border-radius: 20px;
+        flex: 0 1 150px;
         text-align: center;
+        border-radius: 20px;
         background-color: rgba(147, 247, 122, 0.692);
-        width: 10%;
+      
     }
+    .sas{
+        text-align: center;
+    background-color: aquamarine;
+    border-radius: 50px;
+    font-size: xx-large;
+}
     
     .rewievs___comment{
+        border: 5px greenyellow;
     align-items: center;
         text-align: center;
      background-color: #005eff73;
         border-radius: 20px;
-       padding:  0 10% ;
-       margin: 10px;
-
-
+     padding: 5px;
     }
+
     .rewievs__comment__item{
-       margin-bottom: auto;
+       margin-bottom: 10px;
         text-align: center;
         font-size: small;
     }
@@ -92,5 +98,4 @@ body {
     padding: 10px;
     position: relative;
     bottom: 0;
-    width: 100%;
     }
